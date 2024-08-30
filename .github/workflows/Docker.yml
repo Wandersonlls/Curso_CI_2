@@ -21,6 +21,6 @@ jobs:
       uses: docker/login-action@v3.3.0
       with: 
         username: wandersonlls 
-        password: ${{ DOCKER_PWD }}
+        password: ${{ secrets.DOCKER_PWD }}
 
           
